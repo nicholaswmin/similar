@@ -89,9 +89,10 @@ node --test
 
 [@nicholaswmin][nicholaswmin]
 
-Licensed under: [MIT "No attribution" License],   
+Licensed under: [MIT "No attribution" License][mit-0],   
 which doesn't require crediting the author.
 
 [nicholaswmin]: https://github.com/nicholaswmin
 [abbrs-in-code]: https://github.com/abbrcode/abbreviations-in-code
 [leven-algo]: https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
+[mit-0]: https://github.com/aws/mit-0
