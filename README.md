@@ -1,6 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/100%25-coverage-green)
 
-
 # similar 
 
 > tests similarity between `words` and `abbreviations`   
@@ -9,8 +8,7 @@
 > meant to avoid duplicate or near-duplicate entries.
 
 Uses the [Damerau-Levenshtein distance][leven-algo] to calculate   
-similarities between the entries of the machine-readable   
-JSON abbreviations file.    
+similarities between entries of the machine-readable [JSON abbreviations][json].    
 
 - words/abbreviations with `score < 3` are included in the results.
 - a `score: 0` means it's an *exact* duplicate.  
@@ -91,12 +89,14 @@ node --run test
 
 ## Authors
 
-[@nicholaswmin][nicholaswmin]
+Nik. Kyriakides, [@nicholaswmin][nicholaswmin]
 
-Licensed under: [MIT "No attribution" License][mit-0],   
-which doesn't require crediting the author.
+
+[MIT "No attribution" License][mit-0].
+
 
 [nicholaswmin]: https://github.com/nicholaswmin
 [abbrs-in-code]: https://github.com/abbrcode/abbreviations-in-code
+[json]: https://raw.githubusercontent.com/abbrcode/abbreviations-in-code/refs/heads/main/data/abbrs/.json
 [leven-algo]: https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
 [mit-0]: https://github.com/aws/mit-0
