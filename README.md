@@ -79,7 +79,8 @@ The above example can be run via `node example.js`
 
 ## Test
 
-> no need for `npm i`, run as-is:
+> no need for `npm i`, 
+> its a native test runner
 
 ```js
 node --test
