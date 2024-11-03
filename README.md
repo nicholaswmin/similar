@@ -1,4 +1,4 @@
-[![Codecoverage badge](https://img.shields.io/badge/100%25-coverage-green)](#tests)
+[![Codecoverage badge](https://img.shields.io/badge/100%25-coverage-green)](#test)
 
 # similar 
 
@@ -80,7 +80,7 @@ returns:
 
 The above example can be run via `node example.js`
 
-## Test
+## test
 
 > no need for `npm i`, 
 > its a native test runner
