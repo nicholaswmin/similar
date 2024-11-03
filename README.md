@@ -14,9 +14,11 @@ similarities between entries of the machine-readable [JSON abbreviations][json].
 - a `score: 0` means it's an *exact* duplicate.  
 - results are sorted by *lowest* score ascending.  
 
-> The lower the `score` the more *similar* the words are.      
+> The lower the `score` the more *similar* the words are.
+>   
 > The Levenshtein distance/score is the number of   
 > additions/deletions/edits required to change a word into another.
+>
 > e.g: "cat" and "car" distance is `1`.
 
 ## install 
