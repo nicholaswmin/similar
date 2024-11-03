@@ -1,23 +1,23 @@
-![Static Badge](https://img.shields.io/badge/100%25-coverage-green)
+[![Codecoverage badge](https://img.shields.io/badge/100%25-coverage-green)](#tests)
 
 # similar 
 
-> tests similarity between `words` and `abbreviations`   
-> in the [abbreviations-in-code][abbrs-in-code] project lists
+> finds similar `words`/`abbreviations` in the 
+> [abbreviations-in-code][abbrs-in-code] project lists.
 >
 > meant to avoid duplicate or near-duplicate entries.
 
 Uses the [Damerau-Levenshtein distance][leven-algo] to calculate   
 similarities between entries of the machine-readable [JSON abbreviations][json].    
 
-- words/abbreviations with `score < 3` are included in the results.
+- words with `score < 3` are included in the results.
 - a `score: 0` means it's an *exact* duplicate.  
-- results are sorted by *lowest* score ascending.  
+- results are sorted by *lowest* score, ascending.  
 
-> The lower the `score` the more *similar* the words are.
->   
-> The Levenshtein distance/score is the number of   
-> additions/deletions/edits required to change a word into another.
+> The lower the `score`, the more *similar* the words are.      
+>
+> The score is the number of additions/deletions/edits required to change 
+> a word into another.
 >
 > e.g: "cat" and "car" distance is `1`.
 
@@ -94,11 +94,10 @@ node --run test
 Nik. Kyriakides, [@nicholaswmin][nicholaswmin]
 
 
-[MIT "No attribution" License][mit-0].
-
+[MIT "No attribution" License][mit-0]
 
 [nicholaswmin]: https://github.com/nicholaswmin
 [abbrs-in-code]: https://github.com/abbrcode/abbreviations-in-code
 [json]: https://raw.githubusercontent.com/abbrcode/abbreviations-in-code/refs/heads/main/data/abbrs/.json
 [leven-algo]: https://en.wikipedia.org/wiki/Damerau%E2%80%93Levenshtein_distance
-[mit-0]: https://github.com/aws/mit-0
+[mit-0]: https://spdx.org/licenses/MIT-0.html
