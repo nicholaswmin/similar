@@ -2,7 +2,7 @@
 // not the result corrrectness.
 
 import test from 'node:test'
-import { compare } from '../index.js'
+import { compare } from '../src/index.js'
   
 const json = Object.freeze([
   // very similar (score 1-2 ...)
