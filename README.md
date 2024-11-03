@@ -43,7 +43,7 @@ const similarWords = compare.words(json, { cutoff: 3 })
 const similarAbbrs = compare.abbrs(json, { cutoff: 3 })
 
 console.dir(similarWords, { depth: 3 })
-// console.dir(similarWords, { depth: 3 })
+// console.dir(similarAbbrs, { depth: 3 })
 ```
 
 returns:
