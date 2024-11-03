@@ -1,3 +1,6 @@
+![Static Badge](https://img.shields.io/badge/100%25-coverage-green)
+
+
 # similar 
 
 > tests similarity between `words` and `abbreviations`   
