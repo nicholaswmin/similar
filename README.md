@@ -18,8 +18,8 @@ JSON abbreviations file.
 
 > The lower the `score` the more *similar* the words are.      
 > The Levenshtein distance/score is the number of   
-> additions/deletions/edits required to change a word   
-> into another.
+> additions/deletions/edits required to change a word into another.
+> e.g: "cat" and "car" distance is `1`.
 
 ## install 
 
