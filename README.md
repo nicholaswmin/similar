@@ -86,7 +86,7 @@ The above example can be run via `node example.js`
 > its a native test runner
 
 ```js
-node --test
+node --run test
 ```
 
 ## Authors

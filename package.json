@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "node --test"
+    "test": "node --test --experimental-test-coverage"
   },
   "repository": {
     "type": "git",
