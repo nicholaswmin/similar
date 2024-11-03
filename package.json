@@ -1,0 +1,32 @@
+{
+  "name": "@nicholaswmin/similar",
+  "description": "experimental similarity detection for abbrcode project",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": "./src/index.js",
+  "main": "index.js",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaswmin/abbr-leven.git"
+  },
+  "keywords": [
+    "abbr",
+    "abbreviations",
+    "edit-distance",
+    "levenshtein"
+  ],
+  "author": "@nicholaswmin",
+  "license": "MIT-0",
+  "bugs": {
+    "url": "https://github.com/nicholaswmin/abbr-leven/issues"
+  },
+  "homepage": "https://github.com/nicholaswmin/abbr-leven#readme",
+  "dependencies": {
+    "leven": "^4.0.0"
+  }
+}
