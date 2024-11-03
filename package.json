@@ -5,7 +5,9 @@
   "type": "module",
   "exports": "./src/index.js",
   "main": "index.js",
-  "engines": { "node": ">=22.6" },
+  "engines": {
+    "node": ">=22.6"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "node --test"
@@ -25,8 +27,5 @@
   "bugs": {
     "url": "https://github.com/nicholaswmin/abbr-leven/issues"
   },
-  "homepage": "https://github.com/nicholaswmin/abbr-leven#readme",
-  "dependencies": {
-    "leven": "^4.0.0"
-  }
+  "homepage": "https://github.com/nicholaswmin/abbr-leven#readme"
 }
